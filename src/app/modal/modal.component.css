@@ -1,0 +1,69 @@
+
+
+.input-form{
+    position: flex;
+    width: 584.04px;
+    height: 47.96px;
+    left: 402.48px;
+    top: 272.73px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+    background: #FAFAFC;
+    
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-indent: 10px;
+
+}
+
+.input-form.terxt
+
+::placeholder {
+    color: #C1BCCC;
+  }
+
+.produto{
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #9C98A6;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.mat-dialog-container{
+    transform: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SalvarCadastro{
+
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    margin-left: 388px;
+    margin-top: 15px;
+
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 40px;
+
+    color: #fff;
+    width: 197px;
+    height: 56px;
+    left: 796.44px;
+    top: 1132.54px;
+    border: 1px solid #46C085;
+
+    background: #04D361;
+    border-radius: 8px;
+    cursor: pointer;
+    text-indent: 10px;
+
+}

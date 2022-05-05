@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+
+table {
+    width: 100%;
+  }
+  
+.loading-spinner {
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mat-toolbar{
+  background: #42a96b;
+  color: #ffff;
+  }
+
+.Cadastrar{
+    margin-left: 5px;
+    color:#ffff;
+    width: 225px;
+    height: 50px;
+    border: 1px solid #46C085;
+    background-color: #46C085;
+    border-radius: 5px; 
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+  .Editar{
+    width: 204px;
+    height: 50px;
+    color: #42a96b;
+    border: 1px solid #DADCE6;
+    border-radius: 5px; 
+    text-align: center;
+
+  }
+
+.botoes-form{
+  margin-left: 73.2%;
+  } 
+
+.loading-spinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  padding: 25px;
+}

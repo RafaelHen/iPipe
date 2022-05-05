@@ -1,0 +1,83 @@
+body {
+    background-color: #448B69;
+}
+
+.form-primary{
+    position: absolute;
+    width: 780px;
+    height: 822px;
+    left: 710px;
+    top: 59px;
+    background-image: url("/assets/retangle-login.png");
+
+}
+.form-secudary{
+    position: absolute;
+    width: 438px;
+    height: 822px;
+    left: -428px;
+    top: 0px;
+    background-image: url("/assets/background-2.png");
+
+}
+
+.form-tercy{
+    position: absolute;
+    width: 407.35px;
+    height: 238.41px;
+    left: -415.67px;
+    top: 299.18px;
+    background-image: url("/assets/Ilustra.png");
+}
+
+.form-label{
+    position: absolute;
+    width: 350px;
+    height: 176px;
+    left: -354px;
+    top: 124px;
+    background-image: url("/assets/Group8.png");
+}
+
+input.form-input{
+    position: absolute;
+    padding: 25px 20px;
+    width: 683px;
+    height: 60px;
+    left: 46px;
+    top: 348px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input.form-input-1{
+    display: block;
+    position: absolute;
+    padding: 25px 20px;
+    width: 683px;
+    height: 60px;
+    left: 45px;
+    top: 416px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 40px;
+    position: absolute;
+    width: 122px;
+    height: 43px;
+    left: 50px;
+    top: 507px;
+    background: #629f82;
+    color: #ffff;
+    border-color: #448b6900;
+    border-radius: 8px;
+}
