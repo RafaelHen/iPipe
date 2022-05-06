@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Produtos } from '../model/produtos';
 import { ProdutosService } from '../services/produtos.service';
 import {MatDialog} from '@angular/material/dialog';
-import { ModalComponent } from 'src/app/modal/modal.component';
+import { ModalComponent } from 'src/app/produtos/modal/modal.component';
 
 
 @Component({

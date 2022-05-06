@@ -44,7 +44,10 @@ table {
   }
 
 .botoes-form{
-  margin-left: 73.2%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 15px;
   } 
 
 .loading-spinner{
