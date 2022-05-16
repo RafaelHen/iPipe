@@ -10,7 +10,7 @@ import { Produtos } from '../model/produtos';
 export class ProdutosService {
   // chamada ajax - chamada asyncrona com servidor.
 
-  private readonly API = '/assets/produtos.json';
+  private readonly API = 'api/produtos';
 
   constructor(private httpClient: HttpClient) { }
 
