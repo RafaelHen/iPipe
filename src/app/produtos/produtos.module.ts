@@ -8,12 +8,17 @@ import { MatTableModule} from '@angular/material/table';
 import { MatCardModule} from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-import { ModalComponent } from './modal/modal.component';
+import { ProdutosFormComponent } from './produtos-form/produtos-form.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatSelectModule} from '@angular/material/select';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     ProdutosComponent,
-    ModalComponent
+    ProdutosFormComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +26,12 @@ import { ModalComponent } from './modal/modal.component';
     MatTableModule,
     MatCardModule,
     MatToolbarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatButtonModule
     
   ]
 })

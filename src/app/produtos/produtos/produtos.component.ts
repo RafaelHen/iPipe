@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Produtos } from '../model/produtos';
 import { ProdutosService } from '../services/produtos.service';
 import {MatDialog} from '@angular/material/dialog';
-import { ModalComponent } from 'src/app/produtos/modal/modal.component';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 @Component({
@@ -18,7 +18,10 @@ export class ProdutosComponent implements OnInit {
 
  /*  produtosService: ProdutosService; */
 
-  constructor(private produtosService: ProdutosService, public dialog: MatDialog) { 
+  constructor(private produtosService: ProdutosService,
+     public dialog: MatDialog,
+     private router: Router,
+     private route: ActivatedRoute) { 
     this.produtos$ = this.produtosService.list();
   }
 
@@ -26,7 +29,6 @@ export class ProdutosComponent implements OnInit {
   }
 
   openCadastrar(){
-    this.dialog.open(ModalComponent, {
-    })
+    this.router.navigate(['new'], {relativeTo: this.route})
   }
 }

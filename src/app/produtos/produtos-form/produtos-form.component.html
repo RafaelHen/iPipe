@@ -1,0 +1,29 @@
+<mat-card>
+
+    <mat-toolbar class= "toolbar">Detalhes do Curso</mat-toolbar>
+  
+    <mat-card-content>
+      <form [formGroup]="form" class="min-width">
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Produto" formControlName="name">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Preco" formControlName="preco">
+        </mat-form-field>
+  
+        <mat-form-field class="full-width">
+          <mat-label>Categoria</mat-label>
+          <mat-select formControlName="categoria">
+            <mat-option value="null"> </mat-option>
+            <mat-option value="Carro">Carro</mat-option>
+            <mat-option value="Escritorio">Escritorio</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+  
+    <mat-card-actions>
+      <button mat-raised-button class="botao" >Salvar</button>
+      <button mat-raised-button >Cancelar</button>
+    </mat-card-actions>
+  </mat-card>
